@@ -1034,7 +1034,7 @@ select{
     cursor: pointer;
     align-items: center;
     justify-content: center;
-    border-radius: 0.375rem;
+    border-radius: 0px;
     border-width: 1px;
     padding-top: 0.5rem;
     padding-bottom: 0.5rem;
@@ -10187,7 +10187,7 @@ html body{
         right: 0px;
         bottom: 0px;
         left: 0px;
-        border-radius: 0.75rem;
+        border-radius: 0px;
         border-width: 1px;
         --tw-border-opacity: 1;
         border-color: rgb(var(--color-slate-200) / var(--tw-border-opacity));
@@ -10395,7 +10395,7 @@ html body{
             position: absolute;
             top: -2px;
             right: 0px;
-            border-radius: 0px;
+            border-radius: 25px; /**don't change, this is the red dot on the notification icon**/
             --tw-bg-opacity: 1;
             background-color: rgb(var(--color-danger) / var(--tw-bg-opacity));
         }
@@ -10601,8 +10601,8 @@ html body{
 }
 @media (min-width: 1280px){
     .side-nav{
-        border-top-left-radius: 0.75rem;
-        border-bottom-left-radius: 0.75rem;
+        border-top-left-radius: 0px;
+        border-bottom-left-radius: 0px;
     }
 }
 .side-nav:before {
