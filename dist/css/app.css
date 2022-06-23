@@ -4377,8 +4377,8 @@ select{
     --color-slate-50: 248 250 252;
     --color-slate-100: 241 245 249;
     --color-slate-200: 226 232 240;
-    --color-slate-300: 203 213 225;
-    --color-slate-400: 148 163 184;
+    --color-slate-300: 255 255 255;
+    --color-slate-400: 84 89 92;
     --color-slate-500: 100 116 139;
     --color-slate-600: 71 85 105;
     --color-slate-700: 51 65 85;
@@ -4387,8 +4387,8 @@ select{
 }
 /* Default dark-mode colors */
 .dark {
-    --color-primary: 44 85 197;
-    --color-slate-500: 148 163 184;
+    --color-primary: 0 56 166;
+    --color-slate-500: 84 89 92;
     --color-darkmode-50: 87 103 132;
     --color-darkmode-100: 74 90 121;
     --color-darkmode-200: 65 81 114;
@@ -4428,7 +4428,7 @@ select{
     --color-dark: 30 41 59;
 }
 .theme-2.dark {
-        --color-primary: 44 85 197;
+        --color-primary: 0 56 166;
     }
 /*
   |--------------------------------------------------------------------------
@@ -10023,7 +10023,7 @@ html:before {
     }
 @media (min-width: 1280px){
     html:before{
-        background-image: url("../images/bg-main.jpg");
+      background-color: rgb(var(--color-slate-300) / var(--tw-bg-opacity));
     }
 }
 html:after {
