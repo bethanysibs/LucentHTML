@@ -51,6 +51,8 @@
     "/dist/images/logo-dark.svg": "/dist/images/logo-dark.svg",
     "/dist/images/logo.svg": "/dist/images/logo.svg",
     "/dist/images/opera.png": "/dist/images/opera.png",
+    "/dist/images/paper_favicon.png": "/dist/images/paper_favicon.png",
+    "/dist/images/paper_logo_compressed.png": "/dist/images/paper_logo_compressed.png",
     "/dist/images/placeholders/200x200.jpg": "/dist/images/placeholders/200x200.jpg",
     "/dist/images/placeholders/800x800.jpg": "/dist/images/placeholders/800x800.jpg",
     "/dist/images/preview-1.jpg": "/dist/images/preview-1.jpg",
@@ -95,7 +97,5 @@
     "/dist/images/spain.svg": "/dist/images/spain.svg",
     "/dist/images/switzerland.svg": "/dist/images/switzerland.svg",
     "/dist/images/united-kingdom.svg": "/dist/images/united-kingdom.svg",
-    "/dist/images/united-states.svg": "/dist/images/united-states.svg",
-    "/dist/images/paper_logo_compressed.png": "/dist/images/paper_logo_compressed.png",
-    "/dist/images/paper_favicon.png": "/dist/images/paper_favicon.png"
+    "/dist/images/united-states.svg": "/dist/images/united-states.svg"
 }

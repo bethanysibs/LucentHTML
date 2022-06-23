@@ -10021,7 +10021,7 @@ html:before {
     }
 @media (min-width: 1280px){
     html:before{
-      background-color: rgb(var(--color-slate-300) / var(--tw-bg-opacity));
+      background-color: rgb(var(--color-slate-900)); /**primary-blue**/
     }
 }
 html:after {
