@@ -1,18 +1,8 @@
 <!DOCTYPE html>
 <html lang="en" class="dark">
-    <!-- BEGIN: Head -->
-    <head>
-        <meta charset="utf-8">
-        <link href="dist/images/logo.svg" rel="shortcut icon">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <meta name="description" content="Rocketman admin is super flexible, powerful, clean & modern responsive tailwind admin template with unlimited possibilities.">
-        <meta name="keywords" content="admin template, Rocketman Admin Template, dashboard template, flat admin template, responsive admin template, web app">
-        <meta name="author" content="LEFT4CODE">
-        <title>Users - Paper +</title>
-        <!-- BEGIN: CSS Assets-->
-        <link rel="stylesheet" href="dist/css/app.css" />
-        <!-- END: CSS Assets-->
-    </head>
+       <!-- BEGIN: Head -->
+       <title>Users - Paper +</title>
+<?php include 'header.php'; ?>
     <!-- END: Head -->
     <body class="main">
         <div class="xl:pl-5 xl:py-5 flex h-screen">           
@@ -254,9 +244,11 @@
                                     <div class="sm:flex items-center sm:mr-4">
                                         <label class="w-12 flex-none xl:w-auto xl:flex-initial mr-2">Field</label>
                                         <select id="tabulator-html-filter-field" class="form-select w-full sm:w-32 2xl:w-full mt-2 sm:mt-0 sm:w-auto">
-                                            <option value="name">Name</option>
-                                            <option value="category">Category</option>
-                                            <option value="remaining_stock">Remaining Stock</option>
+                                            <option value="username">Username</option>
+                                            <option value="lastname">Last Name</option>
+                                            <option value="firstname">First Name</option>
+                                            <option value="password">Password</option>
+                                            <option value="signature">Signature</option>
                                         </select>
                                     </div>
                                     <div class="sm:flex items-center sm:mr-4 mt-2 xl:mt-0">

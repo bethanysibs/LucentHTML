@@ -9,13 +9,13 @@ import Tabulator from "tabulator-tables";
     if ($("#tabulator").length) {
         // Setup Tabulator
         let table = new Tabulator("#tabulator", {
-            ajaxURL: "https://dummy-data.left4code.com",
+            ajaxURL: "https://dummy-data.left4code.com", //product list or can be users list
             ajaxFiltering: true,
             ajaxSorting: true,
             printAsHtml: true,
             printStyled: true,
             pagination: "remote",
-            paginationSize: 10,
+            paginationSize: 5,
             paginationSizeSelector: [10, 20, 30, 40],
             layout: "fitColumns",
             responsiveLayout: "collapse",
@@ -32,50 +32,66 @@ import Tabulator from "tabulator-tables";
 
                 // For HTML table
                 {
-                    title: "PRODUCT NAME",
+                    title: "USERNAME",
                     minWidth: 200,
                     responsive: 0,
-                    field: "name",
+                    field: "username",
                     vertAlign: "middle",
                     print: false,
                     download: false,
                     formatter(cell, formatterParams) {
                         return `<div>
                             <div class="font-medium whitespace-nowrap">${
-                                cell.getData().name
-                            }</div>
-                            <div class="text-slate-500 text-xs whitespace-nowrap">${
-                                cell.getData().category
+                                cell.getData().username
                             }</div>
                         </div>`;
                     },
                 },
                 {
-                    title: "REMAINING STOCK",
+                    title: "LAST NAME",
                     minWidth: 200,
-                    field: "remaining_stock",
-                    hozAlign: "center",
-                    vertAlign: "middle",
-                    print: false,
-                    download: false,
-                },
-                {
-                    title: "STATUS",
-                    minWidth: 200,
-                    field: "status",
-                    hozAlign: "center",
+                    responsive: 0,
+                    field: "lastname",
                     vertAlign: "middle",
                     print: false,
                     download: false,
                     formatter(cell, formatterParams) {
-                        return `<div class="flex items-center lg:justify-center ${
-                            cell.getData().status
-                                ? "text-success"
-                                : "text-danger"
-                        }">
-                            <i data-lucide="check-square" class="w-4 h-4 mr-2"></i> ${
-                                cell.getData().status ? "Active" : "Inactive"
-                            }
+                        return `<div>
+                            <div class="font-medium whitespace-nowrap">${
+                                cell.getData().lastname
+                            }</div>
+                        </div>`;
+                    },
+                },
+                {
+                    title: "FIRST NAME",
+                    minWidth: 200,
+                    responsive: 0,
+                    field: "firstname",
+                    vertAlign: "middle",
+                    print: false,
+                    download: false,
+                    formatter(cell, formatterParams) {
+                        return `<div>
+                            <div class="font-medium whitespace-nowrap">${
+                                cell.getData().firstname
+                            }</div>
+                        </div>`;
+                    },
+                },
+                {
+                    title: "SIGNATURE",
+                    minWidth: 200,
+                    responsive: 0,
+                    field: "signature",
+                    vertAlign: "middle",
+                    print: false,
+                    download: false,
+                    formatter(cell, formatterParams) {
+                        return `<div>
+                            <div class="font-medium whitespace-nowrap">${
+                                cell.getData().signature
+                            }</div>
                         </div>`;
                     },
                 },
@@ -116,65 +132,32 @@ import Tabulator from "tabulator-tables";
 
                 // For print format
                 {
-                    title: "PRODUCT NAME",
-                    field: "name",
+                    title: "USERNAME",
+                    field: "username",
                     visible: false,
                     print: true,
                     download: true,
                 },
                 {
-                    title: "CATEGORY",
-                    field: "category",
+                    title: "LAST NAME",
+                    field: "lastname",
                     visible: false,
                     print: true,
                     download: true,
                 },
                 {
-                    title: "REMAINING STOCK",
-                    field: "remaining_stock",
+                    title: "FIRST NAME",
+                    field: "firstname",
                     visible: false,
                     print: true,
                     download: true,
                 },
                 {
-                    title: "STATUS",
-                    field: "status",
+                    title: "SIGNATURE",
+                    field: "signature",
                     visible: false,
                     print: true,
                     download: true,
-                    formatterPrint(cell) {
-                        return cell.getValue() ? "Active" : "Inactive";
-                    },
-                },
-                {
-                    title: "IMAGE 1",
-                    field: "images",
-                    visible: false,
-                    print: true,
-                    download: true,
-                    formatterPrint(cell) {
-                        return cell.getValue()[0];
-                    },
-                },
-                {
-                    title: "IMAGE 2",
-                    field: "images",
-                    visible: false,
-                    print: true,
-                    download: true,
-                    formatterPrint(cell) {
-                        return cell.getValue()[1];
-                    },
-                },
-                {
-                    title: "IMAGE 3",
-                    field: "images",
-                    visible: false,
-                    print: true,
-                    download: true,
-                    formatterPrint(cell) {
-                        return cell.getValue()[2];
-                    },
                 },
             ],
             renderComplete() {

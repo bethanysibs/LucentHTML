@@ -9,7 +9,7 @@
                 <div class="w-96 intro-y">
                     <img class="mx-auto w-80" alt="Paper + Login" src="dist/images/paper_logo_compressed.png">
                     <div class="text-white dark:text-slate-300 text-2xl font-medium text-center mt-14">Login to Your Paper+ Account!</div>
-                     <div class="box px-5 py-8 mt-10 max-w-[900px] relative before:content-[''] before:z-[-1] before:w-[95%] before:h-full before:bg-slate-200 before:border before:border-slate-200 before:-mt-5 before:absolute before:rounded-lg before:mx-auto before:inset-x-0 before:dark:bg-darkmode-600/70 before:dark:border-darkmode-500/60">
+                     <div class="box px-5 py-8 mt-10 max-w-[900px] relative before:content-[''] before:z-[-1] before:w-[95%] before:h-full before:bg-slate-200 before:border before:border-slate-200 before:-mt-5 before:absolute before:rounded-lg before:mx-auto before:inset-x-0 before:dark:bg-darkmode-600 before:dark:border-darkmode-500">
                      <input type="text" class="form-control form-control-lg py-3 px-4 block mt-4" placeholder="Username">   
                      <input type="password" class="form-control py-3 px-4 block mt-4" placeholder="Password">
                         <div class="mt-5 xl:mt-8 text-center xl:text-left">
