@@ -16,7 +16,7 @@
                             <ol class="breadcrumb">
                                 <li class="breadcrumb-item"><a href="#">App</a></li>
                                 <li class="breadcrumb-item"><a href="#">Administrator</a></li>
-                                <li class="breadcrumb-item active" aria-current="page">Dashboard</li>
+                                <li class="breadcrumb-item active" aria-current="page">Users</li>
                             </ol>
                         </nav>
                         <!-- END: Breadcrumb -->
@@ -45,25 +45,7 @@
                                             <div class="h-6 text-xs bg-slate-200 text-slate-500 px-2 flex items-center rounded-md absolute inset-y-0 right-0 my-auto mr-4">ESC</div>
                                         </div>
                                         <div class="p-5">
-                                            <div class="font-medium mb-3">Applications</div>
-                                            <div class="mb-5">
-                                                <a href="" class="flex items-center mt-3 first:mt-0">
-                                                    <div class="w-7 h-7 bg-success/20 dark:bg-success/10 text-success flex items-center justify-center rounded-full"> <i class="w-3.5 h-3.5" data-lucide="inbox"></i> </div>
-                                                    <div class="ml-3 truncate">Compose New Mail</div>
-                                                    <div class="ml-auto w-48 truncate text-slate-500 text-xs flex justify-end items-center"> <i class="w-3.5 h-3.5 mr-2" data-lucide="link"></i> Quick Access </div>
-                                                </a>
-                                                <a href="" class="flex items-center mt-3 first:mt-0">
-                                                    <div class="w-7 h-7 bg-pending/10 text-pending flex items-center justify-center rounded-full"> <i class="w-3.5 h-3.5" data-lucide="users"></i> </div>
-                                                    <div class="ml-3 truncate">Contacts</div>
-                                                    <div class="ml-auto w-48 truncate text-slate-500 text-xs flex justify-end items-center"> <i class="w-3.5 h-3.5 mr-2" data-lucide="link"></i> Quick Access </div>
-                                                </a>
-                                                <a href="" class="flex items-center mt-3 first:mt-0">
-                                                    <div class="w-7 h-7 bg-primary/10 dark:bg-primary/20 text-primary/80 flex items-center justify-center rounded-full"> <i class="w-3.5 h-3.5" data-lucide="credit-card"></i> </div>
-                                                    <div class="ml-3 truncate">Product Reports</div>
-                                                    <div class="ml-auto w-48 truncate text-slate-500 text-xs flex justify-end items-center"> <i class="w-3.5 h-3.5 mr-2" data-lucide="link"></i> Quick Access </div>
-                                                </a>
-                                            </div>
-                                            <div class="font-medium mb-3">Contacts</div>
+                                            <div class="font-medium mb-3">Users</div>
                                             <div class="mb-5">
                                                 <a href="" class="flex items-center mt-3 first:mt-0">
                                                     <div class="w-7 h-7 image-fit">
@@ -80,7 +62,7 @@
                                                     <div class="ml-auto w-36 truncate text-slate-500 text-xs text-right">brucewillis@left4code.com</div>
                                                 </a>
                                                 <a href="" class="flex items-center mt-3 first:mt-0">
-                                                z    <div class="w-7 h-7 image-fit">
+                                                    <div class="w-7 h-7 image-fit">
                                                         <img alt="Rocketman - HTML Admin Template" class="rounded-full" src="dist/images/profile-2.jpg">
                                                     </div>
                                                     <div class="w-36 truncate ml-3">Brad Pitt</div>
@@ -92,37 +74,6 @@
                                                     </div>
                                                     <div class="w-36 truncate ml-3">Leonardo DiCaprio</div>
                                                     <div class="ml-auto w-36 truncate text-slate-500 text-xs text-right">leonardodicaprio@left4code.com</div>
-                                                </a>
-                                            </div>
-                                            <div class="font-medium mb-3">Products</div>
-                                            <div>
-                                                <a href="" class="flex items-center mt-3 first:mt-0">
-                                                    <div class="w-7 h-7 image-fit">
-                                                        <img alt="Rocketman - HTML Admin Template" class="rounded-full" src="dist/images/preview-8.jpg">
-                                                    </div>
-                                                    <div class="w-36 truncate ml-3">Sony A7 III</div>
-                                                    <div class="ml-auto w-36 truncate text-slate-500 text-xs text-right">Photography</div>
-                                                </a>
-                                                <a href="" class="flex items-center mt-3 first:mt-0">
-                                                    <div class="w-7 h-7 image-fit">
-                                                        <img alt="Rocketman - HTML Admin Template" class="rounded-full" src="dist/images/preview-4.jpg">
-                                                    </div>
-                                                    <div class="w-36 truncate ml-3">Nikon Z6</div>
-                                                    <div class="ml-auto w-36 truncate text-slate-500 text-xs text-right">Photography</div>
-                                                </a>
-                                                <a href="" class="flex items-center mt-3 first:mt-0">
-                                                    <div class="w-7 h-7 image-fit">
-                                                        <img alt="Rocketman - HTML Admin Template" class="rounded-full" src="dist/images/preview-1.jpg">
-                                                    </div>
-                                                    <div class="w-36 truncate ml-3">Sony A7 III</div>
-                                                    <div class="ml-auto w-36 truncate text-slate-500 text-xs text-right">Photography</div>
-                                                </a>
-                                                <a href="" class="flex items-center mt-3 first:mt-0">
-                                                    <div class="w-7 h-7 image-fit">
-                                                        <img alt="Rocketman - HTML Admin Template" class="rounded-full" src="dist/images/preview-9.jpg">
-                                                    </div>
-                                                    <div class="w-36 truncate ml-3">Oppo Find X2 Pro</div>
-                                                    <div class="ml-auto w-36 truncate text-slate-500 text-xs text-right">Smartphone &amp; Tablet</div>
                                                 </a>
                                             </div>
                                         </div>
@@ -140,7 +91,7 @@
                                     <div class="cursor-pointer relative flex ">
                                         <div class="w-10 h-10 flex-none image-fit mr-1">
                                             <img alt="Rocketman - HTML Admin Template" class="rounded-full" src="dist/images/profile-13.jpg">
-                                            <div class="w-3 h-3 bg-success absolute right-0 bottom-0 rounded-full border-2 border-white dark:border-darkmode-600"></div>
+                                            <div class="w-3 h-3 bg-success absolute right-0 bottom-0 rounded-full border-2 border-white dark:border-darkmode-800"></div>
                                         </div>
                                         <div class="ml-2">
                                             <a href="javascript:;" class="font-medium mr-1">Sylvester Stallone</a> <span class="text-slate-500">It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem </span> 
@@ -150,7 +101,7 @@
                                     <div class="cursor-pointer relative flex mt-5">
                                         <div class="w-10 h-10 flex-none image-fit mr-1">
                                             <img alt="Rocketman - HTML Admin Template" class="rounded-full" src="dist/images/profile-15.jpg">
-                                            <div class="w-3 h-3 bg-success absolute right-0 bottom-0 rounded-full border-2 border-white dark:border-darkmode-600"></div>
+                                            <div class="w-3 h-3 bg-success absolute right-0 bottom-0 rounded-full border-2 border-white dark:border-darkmode-800"></div>
                                         </div>
                                         <div class="ml-2">
                                             <a href="javascript:;" class="font-medium mr-1">Bruce Willis</a> <span class="text-slate-500">It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem </span> 
@@ -160,7 +111,7 @@
                                     <div class="cursor-pointer relative flex mt-5">
                                         <div class="w-10 h-10 flex-none image-fit mr-1">
                                             <img alt="Rocketman - HTML Admin Template" class="rounded-full" src="dist/images/profile-2.jpg">
-                                            <div class="w-3 h-3 bg-success absolute right-0 bottom-0 rounded-full border-2 border-white dark:border-darkmode-600"></div>
+                                            <div class="w-3 h-3 bg-success absolute right-0 bottom-0 rounded-full border-2 border-white dark:border-darkmode-800"></div>
                                         </div>
                                         <div class="ml-2">
                                             <a href="javascript:;" class="font-medium mr-1">Brad Pitt</a> <span class="text-slate-500">It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem </span> 
@@ -220,21 +171,6 @@
                             </h2>
                             <div class="w-full sm:w-auto flex mt-4 sm:mt-0">
                                 <button class="btn btn-primary shadow-md mr-2">Add New User</button>
-                                <div class="dropdown ml-auto sm:ml-0">
-                                    <button class="dropdown-toggle btn px-2 box" aria-expanded="false" data-tw-toggle="dropdown">
-                                        <span class="w-5 h-5 flex items-center justify-center"> <i class="w-4 h-4" data-lucide="plus"></i> </span>
-                                    </button>
-                                    <div class="dropdown-menu w-40">
-                                        <ul class="dropdown-content">
-                                            <li>
-                                                <a href="" class="dropdown-item"> <i data-lucide="file-plus" class="w-4 h-4 mr-2"></i> New Category </a>
-                                            </li>
-                                            <li>
-                                                <a href="" class="dropdown-item"> <i data-lucide="users" class="w-4 h-4 mr-2"></i> New Group </a>
-                                            </li>
-                                        </ul>
-                                    </div>
-                                </div>
                             </div>
                         </div>
                         <!-- BEGIN: HTML Table Data -->
@@ -307,7 +243,7 @@
         </div>
         <!-- BEGIN: Dark Mode Switcher-->
         <!-- <div data-url="side-menu-light-tabulator.html" class="dark-mode-switcher cursor-pointer shadow-md fixed bottom-0 right-0 box border rounded-full w-40 h-12 flex items-center justify-center z-50 mb-10 mr-10">
-            <div class="mr-4 text-slate-600 dark:text-slate-200">Dark Mode</div>
+            <div class="mr-4 text-slate-800 dark:text-slate-200">Dark Mode</div>
             <div class="dark-mode-switcher__toggle dark-mode-switcher__toggle--active border"></div>
         </div> -->
         <!-- END: Dark Mode Switcher-->

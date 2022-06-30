@@ -33,7 +33,7 @@ import Tabulator from "tabulator-tables";
                 // For HTML table
                 {
                     title: "USERNAME",
-                    minWidth: 200,
+                    minWidth: 100,
                     responsive: 0,
                     field: "username",
                     vertAlign: "middle",
@@ -49,7 +49,7 @@ import Tabulator from "tabulator-tables";
                 },
                 {
                     title: "LAST NAME",
-                    minWidth: 200,
+                    minWidth: 100,
                     responsive: 0,
                     field: "lastname",
                     vertAlign: "middle",
@@ -65,7 +65,7 @@ import Tabulator from "tabulator-tables";
                 },
                 {
                     title: "FIRST NAME",
-                    minWidth: 200,
+                    minWidth: 100,
                     responsive: 0,
                     field: "firstname",
                     vertAlign: "middle",
@@ -81,7 +81,7 @@ import Tabulator from "tabulator-tables";
                 },
                 {
                     title: "SIGNATURE",
-                    minWidth: 200,
+                    minWidth: 100,
                     responsive: 0,
                     field: "signature",
                     vertAlign: "middle",
@@ -97,7 +97,7 @@ import Tabulator from "tabulator-tables";
                 },
                 {
                     title: "ACTIONS",
-                    minWidth: 200,
+                    minWidth: 100,
                     field: "actions",
                     responsive: 1,
                     hozAlign: "center",

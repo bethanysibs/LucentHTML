@@ -2752,7 +2752,7 @@ select{
 .dark .box{
     border-color: transparent;
     --tw-bg-opacity: 1;
-    background-color: rgb(var(--color-darkmode-600));
+    background-color: rgb(var(--color-darkmode-800) / 0.1); /**tabulator BG**/
 }
 .box {
         box-shadow: 0px 3px 5px #0000000b;
