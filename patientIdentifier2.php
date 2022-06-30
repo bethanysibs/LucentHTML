@@ -9,14 +9,14 @@
             <div class="w-full min-h-screen p-5 md:p-20 flex items-center justify-center">
                 <div class="w-96 intro-y">
                     <div class="box px-5 py-8 mt-10 max-w-[450px] relative before:content-[''] before:z-[-1] before:w-[95%] before:h-full before:bg-slate-200 before:border before:border-slate-200 before:-mt-5 before:absolute before:rounded-lg before:mx-auto before:inset-x-0 before:dark:bg-darkmode-600/70 before:dark:border-darkmode-500/60">
-                    <label for="horizontal-form-1" class="form-label md:w-10"><h2 class="text-3xl font-medium leading-none mt-3">Patient ID</h2></label> 
+                        <label for="horizontal-form-1" class="form-label md:w-10"><h2 class="text-3xl font-medium leading-none mt-3">Patient ID</h2></label> 
                         <input type="text" class="form-control py-3 px-4 block" placeholder="Patient ID">
-                        </div>
-                        <div class="py-3 px-4">
+                    </div>
+                        <div class="">
                             <div class="mt-5 xl:mt-8 text-center xl:text-left">
-                            <label for="horizontal-form-1" class="form-label md:w-10">
-                                <h2 class="text-3xl font-medium leading-none mt-3 py-3 px-4">New Patient?</h2>
-                            </label> 
+                                <label for="horizontal-form-1" class="form-label md:w-10">
+                                <h2 class="text-3xl font-medium leading-none mt-3">New Patient?</h2>
+                                    </label> 
                                 <button class="btn btn-primary w-full xl:mr-3">YES</button>
                                 <button class="btn btn-danger w-full mt-3">NO</button>
                             </div>

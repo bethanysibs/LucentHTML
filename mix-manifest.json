@@ -5,6 +5,7 @@
     "/dist/js/ckeditor-balloon.js": "/dist/js/ckeditor-balloon.js",
     "/dist/js/ckeditor-balloon-block.js": "/dist/js/ckeditor-balloon-block.js",
     "/dist/js/ckeditor-document.js": "/dist/js/ckeditor-document.js",
+    "/dist/css/app.css": "/dist/css/app.css",
     "/dist/json/location.json": "/dist/json/location.json",
     "/dist/fonts/roboto/LICENSE.txt": "/dist/fonts/roboto/LICENSE.txt",
     "/dist/fonts/roboto/Roboto-Black.ttf": "/dist/fonts/roboto/Roboto-Black.ttf",
@@ -96,6 +97,5 @@
     "/dist/images/spain.svg": "/dist/images/spain.svg",
     "/dist/images/switzerland.svg": "/dist/images/switzerland.svg",
     "/dist/images/united-kingdom.svg": "/dist/images/united-kingdom.svg",
-    "/dist/images/united-states.svg": "/dist/images/united-states.svg",
-    "/dist/css/app.css": "/dist/css/app.css"
+    "/dist/images/united-states.svg": "/dist/images/united-states.svg"
 }
